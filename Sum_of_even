@@ -1,0 +1,15 @@
+#include <iostream>
+int main() {
+    int n;
+    std::cout<<"enter a number";
+    std::cin>>n;
+    int t=1;
+    int sum=0;
+    while (t<=n)
+    {
+        if(t%2==0)
+        sum=sum+t;
+        t=t+1;
+    }
+    std::cout<<sum;
+}
